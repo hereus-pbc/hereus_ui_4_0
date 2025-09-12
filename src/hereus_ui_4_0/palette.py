@@ -1,45 +1,45 @@
 palette = {
   "Light": {
     "WidgetColor": "#ffffff80",
-    "SubWidgetColor": "#ffffff80",
+    "SubWidgetColor": "#ffffff80"
   },
   "Dark": {
     "WidgetColor": "#ffffff30",
-    "SubWidgetColor": "#ffffff30",
+    "SubWidgetColor": "#ffffff30"
   },
   "Blank": {
-    "AccentColor": "#a0a0a0a0",
-    "LightBackground": 'linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%)',
-    "DarkBackground": 'linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%)',
+    "AccentColor": "#c8d0d8",
+    "LightBackground": "linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%)",
+    "DarkBackground": "linear-gradient(to top, #1a1c20 0%, #2a2e35 100%)"
   },
   "Red": {
-    "AccentColor": "#f44336a0",
-    "LightBackground": "linear-gradient(330deg, rgba(255,189,181,1) 0%, rgba(236,172,164,1) 100%)",
-    "DarkBackground": "linear-gradient(330deg, rgba(90,50,50,1) 0%, rgba(85,45,45,1) 100%)"
+    "AccentColor": "#e57373a0",
+    "LightBackground": "linear-gradient(330deg, #f8d7da 0%, #f1c0c4 100%)",
+    "DarkBackground": "linear-gradient(330deg, #2a1d1d 0%, #3a2a2a 100%)"
   },
   "Orange": {
-    "AccentColor": "#ffc107a0",
-    "LightBackground": "linear-gradient(330deg, rgba(255,224,178,1) 0%, rgba(236,211,164,1) 100%)",
-    "DarkBackground": "linear-gradient(330deg, rgba(90,70,40,1) 0%, rgba(85,65,35,1) 100%)"
+    "AccentColor": "#ffb74da0",
+    "LightBackground": "linear-gradient(330deg, #ffe0b2 0%, #f6d5a8 100%)",
+    "DarkBackground": "linear-gradient(330deg, #2a211a 0%, #3a2f24 100%)"
   },
   "Yellow": {
-    "AccentColor": "#fdd835a0",
-    "LightBackground": "linear-gradient(330deg, rgba(255,251,181,1) 0%, rgba(236,232,164,1) 100%)",
-    "DarkBackground": "linear-gradient(330deg, rgba(90,85,50,1) 0%, rgba(85,80,45,1) 100%)"
+    "AccentColor": "#fff176a0",
+    "LightBackground": "linear-gradient(330deg, #fff9c4 0%, #f6f1b0 100%)",
+    "DarkBackground": "linear-gradient(330deg, #2a291d 0%, #3a3828 100%)"
   },
   "Green": {
-    "AccentColor": "#4caf50a0",
-    "LightBackground": "linear-gradient(330deg, rgba(181,255,189,1) 0%, rgba(164,236,172,1) 100%)",
-    "DarkBackground": "linear-gradient(330deg, rgba(50,90,50,1) 0%, rgba(45,85,45,1) 100%)"
+    "AccentColor": "#81c784a0",
+    "LightBackground": "linear-gradient(330deg, #d0f0d5 0%, #c0e5c4 100%)",
+    "DarkBackground": "linear-gradient(330deg, #1d2a1d 0%, #283a28 100%)"
   },
   "Blue": {
-    "AccentColor": "#2196f3a0",
-    "LightBackground": "linear-gradient(330deg, rgba(164,214,255,1) 0%, rgba(190,216,236,1) 100%)",
-    "DarkBackground": "linear-gradient(330deg, rgba(40,65,90,1) 0%, rgba(50,70,85,1) 100%)"
+    "AccentColor": "#64b5f6a0",
+    "LightBackground": "linear-gradient(330deg, #d0e4f6 0%, #c2d7ec 100%)",
+    "DarkBackground": "linear-gradient(330deg, #1d2430 0%, #283544 100%)"
   },
   "Pink": {
-    "AccentColor": "#ff4081a0",
-    "LightBackground": "linear-gradient(330deg, rgba(255,181,210,1) 0%, rgba(236,164,195,1) 100%)",
-    "DarkBackground": "linear-gradient(330deg, rgba(90,40,65,1) 0%, rgba(85,35,60,1) 100%)"
+    "AccentColor": "#f48fb1a0",
+    "LightBackground": "linear-gradient(330deg, #f8d0e0 0%, #ecc0d4 100%)",
+    "DarkBackground": "linear-gradient(330deg, #2a1d25 0%, #3a2a35 100%)"
   }
 }

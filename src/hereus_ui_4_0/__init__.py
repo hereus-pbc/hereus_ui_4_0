@@ -22,6 +22,29 @@ css = """
   'GRAD' -25,
   'opsz' 30
 }
+body {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+#root {
+    position: relative;
+    width: 100%; /* not vw */
+    max-width: 1600px;
+    height: 100vh;
+    margin: 0 auto !important;
+    overflow: hidden;
+    padding: 0 !important;
+}
+.link {
+    text-decoration: underline;
+    margin: 0;
+    border: 0;
+    background: none;
+    overflow: visible;
+    color: blue;
+    cursor: pointer;
+}
+
 """
 
 
@@ -114,7 +137,34 @@ class Button:
         class Pink:
             background_color = palette["Pink"]["AccentColor"]
 
-    DarkTheme = LightTheme
+    class DarkTheme:
+        class Blank:
+            color = Color.black
+            background_color = palette["Blank"]["AccentColor"]
+
+        class Red:
+            color = Color.black
+            background_color = palette["Red"]["AccentColor"]
+
+        class Orange:
+            color = Color.black
+            background_color = palette["Orange"]["AccentColor"]
+
+        class Yellow:
+            color = Color.black
+            background_color = palette["Yellow"]["AccentColor"]
+
+        class Green:
+            color = Color.black
+            background_color = palette["Green"]["AccentColor"]
+
+        class Blue:
+            color = Color.black
+            background_color = palette["Blue"]["AccentColor"]
+
+        class Pink:
+            color = Color.black
+            background_color = palette["Pink"]["AccentColor"]
 
 
 class SmallButton:
@@ -129,19 +179,64 @@ class MiniButton:
     width = Size.pixel(100)
     height = Size.pixel(30)
     font_size = Size.pixel(15)
-    background_color = palette["Light"]["WidgetColor"]
 
     class LightTheme:
         class Blank:
             background_color = palette["Light"]["WidgetColor"]
-            color = Color.black
-        Red = Orange = Yellow = Green = Blue = Pink = Blank
+            color = palette["Blank"]["AccentColor"]
+
+        class Red:
+            background_color = palette["Light"]["WidgetColor"]
+            color = palette["Red"]["AccentColor"]
+
+        class Orange:
+            background_color = palette["Light"]["WidgetColor"]
+            color = palette["Orange"]["AccentColor"]
+
+        class Yellow:
+            background_color = palette["Light"]["WidgetColor"]
+            color = palette["Yellow"]["AccentColor"]
+
+        class Green:
+            background_color = palette["Light"]["WidgetColor"]
+            color = palette["Green"]["AccentColor"]
+
+        class Blue:
+            background_color = palette["Light"]["WidgetColor"]
+            color = palette["Blue"]["AccentColor"]
+
+        class Pink:
+            background_color = palette["Light"]["WidgetColor"]
+            color = palette["Pink"]["AccentColor"]
 
     class DarkTheme:
         class Blank:
-            background_color = palette["Light"]["WidgetColor"]
-            color = Color.white
-        Red = Orange = Yellow = Green = Blue = Pink = Blank
+            background_color = palette["Dark"]["WidgetColor"]
+            color = palette["Blank"]["AccentColor"]
+
+        class Red:
+            background_color = palette["Dark"]["WidgetColor"]
+            color = palette["Red"]["AccentColor"]
+
+        class Orange:
+            background_color = palette["Dark"]["WidgetColor"]
+            color = palette["Orange"]["AccentColor"]
+
+        class Yellow:
+            background_color = palette["Dark"]["WidgetColor"]
+            color = palette["Yellow"]["AccentColor"]
+
+        class Green:
+            background_color = palette["Dark"]["WidgetColor"]
+            color = palette["Green"]["AccentColor"]
+
+        class Blue:
+            background_color = palette["Dark"]["WidgetColor"]
+            color = palette["Blue"]["AccentColor"]
+
+        class Pink:
+            background_color = palette["Dark"]["WidgetColor"]
+            color = palette["Pink"]["AccentColor"]
 
 
 class Link:
@@ -170,30 +265,37 @@ class Page:
 
         class Blank:
             background_image = palette["Blank"]["LightBackground"]
+            background_color = palette["Blank"]["LightBackground"].split(", ")[2].split(" ")[0]
             accent_color = palette["Blank"]["AccentColor"]
 
         class Red:
             background_image = palette["Red"]["LightBackground"]
+            background_color = palette["Red"]["LightBackground"].split(", ")[2].split(" ")[0]
             accent_color = palette["Red"]["AccentColor"]
 
         class Orange:
             background_image = palette["Orange"]["LightBackground"]
+            background_color = palette["Orange"]["LightBackground"].split(", ")[2].split(" ")[0]
             accent_color = palette["Orange"]["AccentColor"]
 
         class Yellow:
             background_image = palette["Yellow"]["LightBackground"]
+            background_color = palette["Yellow"]["LightBackground"].split(", ")[2].split(" ")[0]
             accent_color = palette["Yellow"]["AccentColor"]
 
         class Green:
             background_image = palette["Green"]["LightBackground"]
+            background_color = palette["Green"]["LightBackground"].split(", ")[2].split(" ")[0]
             accent_color = palette["Green"]["AccentColor"]
 
         class Blue:
             background_image = palette["Blue"]["LightBackground"]
+            background_color = palette["Blue"]["LightBackground"].split(", ")[2].split(" ")[0]
             accent_color = palette["Blue"]["AccentColor"]
 
         class Pink:
             background_image = palette["Pink"]["LightBackground"]
+            background_color = palette["Pink"]["LightBackground"].split(", ")[2].split(" ")[0]
             accent_color = palette["Pink"]["AccentColor"]
 
     class DarkTheme:
@@ -201,30 +303,37 @@ class Page:
 
         class Blank:
             background_image = palette["Blank"]["DarkBackground"]
+            background_color = palette["Blank"]["DarkBackground"].split(", ")[2].split(" ")[0]
             accent_color = palette["Blank"]["AccentColor"]
 
         class Red:
             background_image = palette["Red"]["DarkBackground"]
+            background_color = palette["Red"]["DarkBackground"].split(", ")[2].split(" ")[0]
             accent_color = palette["Red"]["AccentColor"]
 
         class Orange:
             background_image = palette["Orange"]["DarkBackground"]
+            background_color = palette["Orange"]["DarkBackground"].split(", ")[2].split(" ")[0]
             accent_color = palette["Orange"]["AccentColor"]
 
         class Yellow:
             background_image = palette["Yellow"]["DarkBackground"]
+            background_color = palette["Yellow"]["DarkBackground"].split(", ")[2].split(" ")[0]
             accent_color = palette["Yellow"]["AccentColor"]
 
         class Green:
             background_image = palette["Green"]["DarkBackground"]
+            background_color = palette["Green"]["DarkBackground"].split(", ")[2].split(" ")[0]
             accent_color = palette["Green"]["AccentColor"]
 
         class Blue:
             background_image = palette["Blue"]["DarkBackground"]
+            background_color = palette["Blue"]["DarkBackground"].split(", ")[2].split(" ")[0]
             accent_color = palette["Blue"]["AccentColor"]
 
         class Pink:
             background_image = palette["Pink"]["DarkBackground"]
+            background_color = palette["Pink"]["DarkBackground"].split(", ")[2].split(" ")[0]
             accent_color = palette["Pink"]["AccentColor"]
 
 
