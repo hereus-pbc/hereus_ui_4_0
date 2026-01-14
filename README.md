@@ -1,1 +1,1 @@
-This repo is no longer available.
+This repo has moved to GitLab: https://gitlab.com/hereus/ui/4.0
